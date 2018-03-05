@@ -1,6 +1,6 @@
-- `menu`鼠标覆盖
-![menu](./gif/menu.gif)
-- `logo`鼠标覆盖
-![logo](./gif/logo.gif)
-- `wave` 波浪
-![wave](./gif/wave.gif)
+- [menu鼠标覆盖](./src/menu.html)
+    - ![menu](./gif/menu.gif)
+- [logo鼠标覆盖](./src/logo.html)
+    - ![logo](./gif/logo.gif)
+- [wave波浪](./src/wave.html)
+    - ![wave](./gif/wave.gif)
