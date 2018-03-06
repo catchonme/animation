@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .container {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            background-color: #ededed;
+            min-height: 100vh;
+        }
+
+        .menu-icon {
+            position: relative;
+            width: 3em;
+            height: 2.25em;
+            display: inline-block;
+        }
+
+        .menu-icon span {
+            position: absolute;
+            height: 0.1875em;
+            width: 100%;
+            background-color: #363636;
+            -webkit-transition: all 250ms ease-in-out;
+            transition: all 250ms ease-in-out;
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+            -webkit-box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
+            box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
+        }
+
+        .menu-icon span:nth-child(1) {
+            top: 0.09375em;
+        }
+
+        .menu-icon span:nth-child(2),
+        .menu-icon span:nth-child(3) {
+            top: 0.9375em;
+        }
+
+        .menu-icon span:nth-child(4) {
+            top: 1.875em;
+        }
+
+        .menu-button:hover span,
+        .menu-button:focus span,
+        .menu-button:active span {
+            background: #d00251;
+        }
+
+        .menu-icon.is-active span:nth-child(1),
+        .menu-icon.is-active span:nth-child(4) {
+            opacity: 0;
+        }
+
+        .menu-icon.is-active span:nth-child(2) {
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+
+        .menu-icon.is-active span:nth-child(3) {
+            top: 0.9375em;
+            -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="#" class="menu-button [ js-menu-button ]">
+        <div class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </a>
+</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    function updateMenuButton() {
+      $('.js-menu-button').find('.menu-icon').toggleClass('is-active');
+    }
+
+    $(document).ready(function(){
+      $('.js-menu-button').click(function (e) {
+        e.preventDefault();
+        updateMenuButton();
+      })
+    })
+</script>
+</html>
