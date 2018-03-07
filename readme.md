@@ -13,3 +13,7 @@
 [wave波浪](./src/wave.html)
 
 ![wave](./gif/wave.gif)
+
+[进度条](./src/progress-bars.html)
+
+![progress-bars](./gif/progress-bars.gif)
