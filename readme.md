@@ -1,3 +1,7 @@
+[team-logo加载](./src/team-logo.html)
+
+![team-logo加载](./gif/team-logo.gif)
+
 [menu鼠标覆盖](./src/menu-hover.html)
 
 ![menu](./gif/menu-hover.gif)
