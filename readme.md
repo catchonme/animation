@@ -1,3 +1,7 @@
+[loading加载](./src/loading.html)
+
+![loading加载](./gif/loading.gif)
+
 [team-logo加载](./src/team-logo.html)
 
 ![team-logo加载](./gif/team-logo.gif)
