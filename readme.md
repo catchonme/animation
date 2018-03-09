@@ -1,3 +1,19 @@
+[打字效果](./src/typing.html)
+
+![打字效果](./gif/typing.gif)
+
+[图片全景](./src/panoramic.html)
+
+![图片全景](./gif/panoramic.gif)
+
+[图片转gif](./src/image-to-gif.html)
+
+![图片转gif](./gif/image-to-gif.gif)
+
+[小球掉落](./src/ball-bounce.html)
+
+![小球掉落](./gif/ball-bounce.gif)
+
 [loading加载](./src/loading.html)
 
 ![loading加载](./gif/loading.gif)
