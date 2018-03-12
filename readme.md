@@ -1,3 +1,7 @@
+[正方形3D效果](./src/square-3d.html)
+
+[正方形3D效果](./gif/square-3d.gif)
+
 [打字效果](./src/typing.html)
 
 ![打字效果](./gif/typing.gif)
