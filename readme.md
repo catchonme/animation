@@ -1,3 +1,7 @@
+[呼吸灯](./src/breathing-light.html)
+
+[呼吸灯](./gif/breathing-light.gif)
+
 [正方形3D效果](./src/square-3d.html)
 
 [正方形3D效果](./gif/square-3d.gif)
